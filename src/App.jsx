@@ -2,6 +2,7 @@ import React from "react";
 import Header from "src/components/Header";
 import Section from "src/components/Section";
 import HelpfulResource from "src/components/HelpfulResource"
+import AboutMe from "src/components/AboutMe";
 import "src/index.css";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             link="https://scrimba.com/learn/learnreact"
           />
         </Section>
+        <AboutMe />
     </div>
   );
 }
