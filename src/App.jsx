@@ -3,6 +3,7 @@ import Header from "src/components/Header";
 import Section from "src/components/Section";
 import HelpfulResource from "src/components/HelpfulResource"
 import AboutMe from "src/components/AboutMe";
+import Footer from "src/components/Footer";
 import "src/index.css";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           />
         </Section>
         <AboutMe />
+        <Footer />
     </div>
   );
 }
